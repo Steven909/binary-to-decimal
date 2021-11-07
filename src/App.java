@@ -10,12 +10,13 @@ public class App {
         convertBinaryToDecimal(binary);
     }
 
-    static double convertBinaryToDecimal(String binary) {
+    static double convertBinaryToDecimal(String binary)  {
 
-        int decimal = Integer.parseInt(binary, 2);
-        System.out.println(decimal);
-        return 0.0;
 
+            int decimal = Integer.parseInt(binary, 2);
+            System.out.println(decimal);
+
+
+        return 0;
     }
 }
-
